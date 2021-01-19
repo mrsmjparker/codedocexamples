@@ -9,7 +9,8 @@ using System.Web.Mvc;
 namespace PhotoSharingApplication.Models
 {
 
-//This class represents acutal fields for the 
+//This class represents acutal fields in the SQLMIADB_DEV and SQLAZExamPrep_PROD databases.  
+//Tables are: dev_products.photos and products.photos 
     public class Photo
     {
         //PhotoID. This is the primary key
