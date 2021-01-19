@@ -39,4 +39,9 @@ Field Types
 Rules/Requirements on Fields (for users)
 Additional format information (dates, and photo types)
 
+Comments.cs
+This class contains properties that map to fields in the DEV and PROD databases mentioned above
+
+
+
 
