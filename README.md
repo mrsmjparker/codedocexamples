@@ -14,4 +14,17 @@ ____________________________________________
 
 
 EXPECTED RESULTS OF APP (version 1)_timestamp 1/19/2021
-In producttion, it is 
+In producttion, it is expected that users will insert photos, and comments into the products schema:
+Photos Table
+Comments Table
+
+RULES
+Photos must be valid type
+
+________________________________
+WHAT IS INCLUDED IN THIS REPO:
+
+PhotoSharingInitializer.cs
+DEV photos and comments inserted into DEV database to simulate actual insertion of photos and comments in PROD
+
+PhotoSharingContext.cs
