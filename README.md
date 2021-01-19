@@ -7,9 +7,9 @@ The code in this repository represents code for a photo sharing app.  The two en
 ____________________________________________
 **ARTIFACTS LOCATION**
 
-  DEV - Create some fake photo metadata to insert into SQLMIADB_Dev (dev_products_photos table)
+  DEV - Create some fake photo metadata to insert into SQLMIADB_Dev (dev.products.photos table)
   
-  PROD - user uploads photos into app, which will insert metadata into SQLAZExamPrep_PROD (products_photos table)
+  PROD - user uploads photos into app, which will insert metadata into SQLAZExamPrep_PROD (products.photos table)
 ____________________________________________
 
 
