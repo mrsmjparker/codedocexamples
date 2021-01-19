@@ -17,8 +17,8 @@ namespace PhotoSharingApplication.Models
         {
             base.Seed(context);
 
-            //DEV - Create some photos to insert into SQLMIADB_Dev (dev_products_photos table)
-            //PROD - user uploads photos to insert into SQLAZExamPrep_PROD (products_photos table)
+            //DEV - Create some photos to insert into SQLMIADB_Dev (dev.products.photos table)
+            //PROD - user uploads photos to insert into SQLAZExamPrep_PROD (products.photos table)
             var photos = new List<Photo>
             {
                 new Photo {
