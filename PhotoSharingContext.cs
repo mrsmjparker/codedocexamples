@@ -4,8 +4,10 @@ using System.Linq;
 using System.Web;
 using System.Data.Entity;
 
-//This class represents properties that will serve 
-//inserts, deletes, query by photoID, PhotoTitle, PhotoComments
+//This ACTION class represents CRUD properties that will serve:
+  // SQLMIADB_Dev (dev_products_photos table)
+  //PSQLAZExamPrep_PROD (products_photos table)
+//class performing inserts, deletes, query by photoID, PhotoTitle, PhotoComments
 
 namespace PhotoSharingApplication.Models
 {
@@ -15,7 +17,7 @@ namespace PhotoSharingApplication.Models
         {
             this.Database.CommandTimeout = 180;
         }
-
+//two classes specific to this app used for Photos and Comments which will be uploaded by end users
         public DbSet<Photo> Photos { get; set; }
         public DbSet<Comment> Comments { get; set; }
 
@@ -33,17 +35,17 @@ namespace PhotoSharingApplication.Models
         {
             return SaveChanges();
         }
-
+//insert photo
         T IPhotoSharingContext.Add<T>(T entity)
         {
             return Set<T>().Add(entity);
         }
-
+//query by photoid
         Photo IPhotoSharingContext.FindPhotoById(int ID)
         {
             return Set<Photo>().Find(ID);
         }
-
+//query by title
         Photo IPhotoSharingContext.FindPhotoByTitle(string Title)
         {
             Photo photo = (from p in Set<Photo>()
@@ -51,12 +53,12 @@ namespace PhotoSharingApplication.Models
                            select p).FirstOrDefault();
             return photo;
         }
-
+//query by comment
         Comment IPhotoSharingContext.FindCommentById(int ID)
         {
             return Set<Comment>().Find(ID);
         }
-
+//delte photo
         T IPhotoSharingContext.Delete<T>(T entity)
         {
             return Set<T>().Remove(entity);
