@@ -4,6 +4,9 @@ using System.Linq;
 using System.Web;
 using System.Data.Entity;
 
+//This class represents properties that will serve 
+//inserts, deletes, query by photoID, PhotoTitle, PhotoComments
+
 namespace PhotoSharingApplication.Models
 {
     public class PhotoSharingContext : DbContext, IPhotoSharingContext
