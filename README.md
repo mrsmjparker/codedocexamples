@@ -2,7 +2,14 @@
 
 #Seekingthedream_codeDocumentationSamples
 
-The code in this repository represents code for a photo sharing app.  The two environments being targeted are "DEV" and "PROD".  
+**ABOUT - PHOTO SHARING APP**
+The code in this repository represents code for a photo sharing app.  The two environments being targeted are "DEV" and "PROD".  The app is designed to share photos/logos for various exam prep books, and comments about them.
+
+**Process Overview**
+Marketing department will upload new logos for each new product, including title
+Marketing department will supply comment information for each photo uploaded
+Marketing and Sales departments will update as needed
+
 
 ____________________________________________
 **ARTIFACTS LOCATION**
@@ -13,19 +20,19 @@ ____________________________________________
 ____________________________________________
 
 
-EXPECTED RESULTS OF APP (version 1)_timestamp 1/19/2021
+**EXPECTED RESULTS OF APP (version 1)_timestamp 1/19/2021**
 In producttion, it is expected that users will insert photos, and comments into the products schema:
 Photos Table
 Comments Table
 
-RULES
+**RULES**
 Photos must be valid type
 Subject field is required after upload (comments)
 Title Field is required after upload (photos)
 Provided users are validated, after logging in, all users can edit their own comments and/or photos
 
 ________________________________
-WHAT IS INCLUDED IN THIS REPO:
+**FILE INCLUDED IN THIS REPO:**
 
 PhotoSharingInitializer.cs
 DEV photos and comments inserted into DEV database to simulate actual insertion of photos and comments in PROD
