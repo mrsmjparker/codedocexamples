@@ -20,6 +20,9 @@ Comments Table
 
 RULES
 Photos must be valid type
+Subject field is required after upload (comments)
+Title Field is required after upload (photos)
+Provided users are validated, after logging in, all users can edit their own comments and/or photos
 
 ________________________________
 WHAT IS INCLUDED IN THIS REPO:
@@ -31,4 +34,9 @@ PhotoSharingContext.cs
 This class is the actual ACTION class for CRUD and query functions for app.  Users will be able to insert photos and comments. Once inserted, users will be able to query for photos and comments by ID and Title.
 
 Photo.cs
+This class shows metadata and properties which map to fields in the actual databases.  In addition, this class outlines:
+Field Types
+Rules/Requirements on Fields (for users)
+Additional format information (dates, and photo types)
+
 
