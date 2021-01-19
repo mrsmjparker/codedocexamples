@@ -28,3 +28,7 @@ PhotoSharingInitializer.cs
 DEV photos and comments inserted into DEV database to simulate actual insertion of photos and comments in PROD
 
 PhotoSharingContext.cs
+This class is the actual ACTION class for CRUD and query functions for app.  Users will be able to insert photos and comments. Once inserted, users will be able to query for photos and comments by ID and Title.
+
+Photo.cs
+
