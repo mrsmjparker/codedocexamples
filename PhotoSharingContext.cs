@@ -5,8 +5,8 @@ using System.Web;
 using System.Data.Entity;
 
 //This ACTION class represents CRUD properties that will serve:
-  // SQLMIADB_Dev (dev_products_photos table)
-  //PSQLAZExamPrep_PROD (products_photos table)
+  // SQLMIADB_Dev (dev.products.photos table)
+  //PSQLAZExamPrep_PROD (products.photos table)
 //class performing inserts, deletes, query by photoID, PhotoTitle, PhotoComments
 
 namespace PhotoSharingApplication.Models
