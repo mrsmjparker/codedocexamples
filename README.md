@@ -32,7 +32,7 @@ Title Field is required after upload (photos)
 Provided users are validated, after logging in, all users can edit their own comments and/or photos
 
 ________________________________
-**FILE INCLUDED IN THIS REPO:**
+**FILES INCLUDED IN THIS REPO:**
 
 PhotoSharingInitializer.cs
 DEV photos and comments inserted into DEV database to simulate actual insertion of photos and comments in PROD
